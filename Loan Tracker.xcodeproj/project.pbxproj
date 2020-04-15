@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE434CB24074A9300E76B2A /* LoanGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE434CA24074A9300E76B2A /* LoanGroup.swift */; };
+		2FE434CD2407702800E76B2A /* LoanHelperTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE434CC2407702800E76B2A /* LoanHelperTableViewController.swift */; };
+		2FE434CF2408A09300E76B2A /* LoanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE434CE2408A09300E76B2A /* LoanTableViewCell.swift */; };
+		2FEF7E1824060786004F9B3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF7E1724060786004F9B3F /* AppDelegate.swift */; };
+		2FEF7E1A24060786004F9B3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF7E1924060786004F9B3F /* SceneDelegate.swift */; };
+		2FEF7E1C24060786004F9B3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF7E1B24060786004F9B3F /* ViewController.swift */; };
+		2FEF7E1F24060786004F9B3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEF7E1D24060786004F9B3F /* Main.storyboard */; };
+		2FEF7E2124060787004F9B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEF7E2024060787004F9B3F /* Assets.xcassets */; };
+		2FEF7E2424060787004F9B3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEF7E2224060787004F9B3F /* LaunchScreen.storyboard */; };
+		2FEF7E2E2407455D004F9B3F /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF7E2D2407455D004F9B3F /* Loan.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FE434CA24074A9300E76B2A /* LoanGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanGroup.swift; sourceTree = "<group>"; };
+		2FE434CC2407702800E76B2A /* LoanHelperTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanHelperTableViewController.swift; sourceTree = "<group>"; };
+		2FE434CE2408A09300E76B2A /* LoanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanTableViewCell.swift; sourceTree = "<group>"; };
+		2FEF7E1424060786004F9B3F /* Loan Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loan Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEF7E1724060786004F9B3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FEF7E1924060786004F9B3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2FEF7E1B24060786004F9B3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FEF7E1E24060786004F9B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FEF7E2024060787004F9B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FEF7E2324060787004F9B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FEF7E2524060787004F9B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEF7E2D2407455D004F9B3F /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FEF7E1124060786004F9B3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FEF7E0B24060786004F9B3F = {
+			isa = PBXGroup;
+			children = (
+				2FEF7E1624060786004F9B3F /* Loan Tracker */,
+				2FEF7E1524060786004F9B3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FEF7E1524060786004F9B3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FEF7E1424060786004F9B3F /* Loan Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FEF7E1624060786004F9B3F /* Loan Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				2FE434CA24074A9300E76B2A /* LoanGroup.swift */,
+				2FEF7E1724060786004F9B3F /* AppDelegate.swift */,
+				2FEF7E1924060786004F9B3F /* SceneDelegate.swift */,
+				2FEF7E1B24060786004F9B3F /* ViewController.swift */,
+				2FE434CC2407702800E76B2A /* LoanHelperTableViewController.swift */,
+				2FE434CE2408A09300E76B2A /* LoanTableViewCell.swift */,
+				2FEF7E1D24060786004F9B3F /* Main.storyboard */,
+				2FEF7E2D2407455D004F9B3F /* Loan.swift */,
+				2FEF7E2024060787004F9B3F /* Assets.xcassets */,
+				2FEF7E2224060787004F9B3F /* LaunchScreen.storyboard */,
+				2FEF7E2524060787004F9B3F /* Info.plist */,
+			);
+			path = "Loan Tracker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FEF7E1324060786004F9B3F /* Loan Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEF7E2824060787004F9B3F /* Build configuration list for PBXNativeTarget "Loan Tracker" */;
+			buildPhases = (
+				2FEF7E1024060786004F9B3F /* Sources */,
+				2FEF7E1124060786004F9B3F /* Frameworks */,
+				2FEF7E1224060786004F9B3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loan Tracker";
+			productName = "Loan Tracker";
+			productReference = 2FEF7E1424060786004F9B3F /* Loan Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FEF7E0C24060786004F9B3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = TyWeMc;
+				TargetAttributes = {
+					2FEF7E1324060786004F9B3F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2FEF7E0F24060786004F9B3F /* Build configuration list for PBXProject "Loan Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FEF7E0B24060786004F9B3F;
+			productRefGroup = 2FEF7E1524060786004F9B3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FEF7E1324060786004F9B3F /* Loan Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FEF7E1224060786004F9B3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEF7E2424060787004F9B3F /* LaunchScreen.storyboard in Resources */,
+				2FEF7E2124060787004F9B3F /* Assets.xcassets in Resources */,
+				2FEF7E1F24060786004F9B3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FEF7E1024060786004F9B3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEF7E1C24060786004F9B3F /* ViewController.swift in Sources */,
+				2FE434CD2407702800E76B2A /* LoanHelperTableViewController.swift in Sources */,
+				2FE434CF2408A09300E76B2A /* LoanTableViewCell.swift in Sources */,
+				2FEF7E2E2407455D004F9B3F /* Loan.swift in Sources */,
+				2FEF7E1824060786004F9B3F /* AppDelegate.swift in Sources */,
+				2FEF7E1A24060786004F9B3F /* SceneDelegate.swift in Sources */,
+				2FE434CB24074A9300E76B2A /* LoanGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FEF7E1D24060786004F9B3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FEF7E1E24060786004F9B3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FEF7E2224060787004F9B3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FEF7E2324060787004F9B3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FEF7E2624060787004F9B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FEF7E2724060787004F9B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FEF7E2924060787004F9B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Loan Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tywemc.Loan-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FEF7E2A24060787004F9B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Loan Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tywemc.Loan-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FEF7E0F24060786004F9B3F /* Build configuration list for PBXProject "Loan Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEF7E2624060787004F9B3F /* Debug */,
+				2FEF7E2724060787004F9B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEF7E2824060787004F9B3F /* Build configuration list for PBXNativeTarget "Loan Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEF7E2924060787004F9B3F /* Debug */,
+				2FEF7E2A24060787004F9B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FEF7E0C24060786004F9B3F /* Project object */;
+}
